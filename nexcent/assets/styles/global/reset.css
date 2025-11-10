@@ -1,0 +1,41 @@
+/* Universal box-sizing for easier layout calculations */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding from common elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and line-height for body */
+body {
+  font-family: sans-serif; /* Or your preferred font-family */
+  line-height: 1.5;
+}
+
+/* Remove text decoration from links */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent, or set a default */
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  display: block; /* Remove extra space below image */
+}
+
+/* Reset form element styles */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
